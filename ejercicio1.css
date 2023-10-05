@@ -1,0 +1,21 @@
+.contenido {
+  display: flex;
+}
+
+#rojo {
+  background-color: rgb(248, 80, 80);
+  width: 150px;
+  height: 150px;
+}
+
+#azul {
+  background-color: rgb(86, 86, 219);
+  width: 150px;
+  height: 150px;
+}
+
+#verde {
+  background-color: rgb(138, 202, 42);
+  width: 150px;
+  height: 150px;
+}

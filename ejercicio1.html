@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body id="fondo">
+    <div class="contenido">
+    <div id="rojo"></div>
+    <div id="azul"></div>
+    <div id="verde"></div>
+    </div>
+
+    <script>
+        const rojo = document.getElementById ('rojo')
+        const azul = document.getElementById ('azul')
+        const verde = document.getElementById ('verde')
+        const fondo = document.getElementById ('fondo')
+
+        rojo.onclick = function (event) {
+            fondo.style.backgroundColor = '#F85050'
+        }
+
+        azul.onclick = function (event) {
+            fondo.style.backgroundColor = '#5656DB'
+        }
+
+        verde.onclick = function (event) {
+            fondo.style.backgroundColor = '#8ACA2A'
+        }
+        
+    </script>
+</body>
+
+</html>
